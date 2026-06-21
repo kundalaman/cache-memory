@@ -1,0 +1,141 @@
+$date
+	Sun Jun 21 23:33:07 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! stall_cpu $end
+$var wire 32 " cpu_rdata [31:0] $end
+$var reg 1 # clk $end
+$var reg 8 $ cpu_addr [7:0] $end
+$var reg 1 % cpu_read $end
+$var reg 32 & cpu_wdata [31:0] $end
+$var reg 1 ' cpu_write $end
+$var reg 1 ( rst $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 8 ) cpu_addr [7:0] $end
+$var wire 1 % cpu_read $end
+$var wire 32 * cpu_wdata [31:0] $end
+$var wire 1 ' cpu_write $end
+$var wire 1 + hit_way0 $end
+$var wire 1 , hit_way1 $end
+$var wire 1 ( rst $end
+$var wire 4 - tag [3:0] $end
+$var wire 2 . index [1:0] $end
+$var parameter 2 / ALLOCATE $end
+$var parameter 2 0 COMPARE_TAG $end
+$var parameter 2 1 IDLE $end
+$var parameter 2 2 WRITE_BACK $end
+$var reg 32 3 cpu_rdata [31:0] $end
+$var reg 1 4 replace_way $end
+$var reg 1 ! stall_cpu $end
+$var reg 2 5 state [1:0] $end
+$var integer 32 6 i [31:0] $end
+$var integer 32 7 j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 2
+b0 1
+b1 0
+b11 /
+$end
+#0
+$dumpvars
+b10 7
+b100 6
+b0 5
+04
+bx 3
+b0 .
+b0 -
+0,
+0+
+b0 *
+b0 )
+1(
+0'
+b0 &
+0%
+b0 $
+0#
+bx "
+0!
+$end
+#5
+b10 7
+b100 6
+1#
+#10
+0#
+0(
+#15
+1#
+#20
+b1 .
+b10 -
+0#
+b100100 $
+b100100 )
+1%
+#25
+b1 5
+1!
+1#
+#30
+0#
+0%
+#35
+b11 5
+1#
+#40
+0#
+#45
+14
+1+
+b0 5
+0!
+b1111100111 "
+b1111100111 3
+1#
+#50
+0#
+#55
+1#
+#60
+0#
+#65
+1#
+#70
+0#
+#75
+1#
+#80
+0#
+#85
+1#
+#90
+0#
+#95
+1#
+#100
+0#
+#105
+1#
+#110
+0#
+#115
+1#
+#120
+0#
+#125
+1#
+#130
+0#
