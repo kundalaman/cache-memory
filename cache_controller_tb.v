@@ -12,8 +12,6 @@ module tb;
     wire [31:0] cpu_rdata;
     wire stall_cpu;
 
-    // DUT
-
     cache_controller uut (
 
         .clk(clk),

@@ -49,10 +49,7 @@ assign hit_way1 =
     valid[index][1] &&
     (tag_array[index][1] == tag);
 
-// ----------------------------------
 // FSM states
-// ----------------------------------
-
 parameter IDLE        = 2'b00;
 parameter COMPARE_TAG = 2'b01;
 parameter WRITE_BACK  = 2'b10;
@@ -60,9 +57,7 @@ parameter ALLOCATE    = 2'b11;
 
 reg [1:0] state;
 
-// ----------------------------------
 // LRU logic
-// ----------------------------------
 
 reg lru [0:3];
 
